@@ -105,5 +105,5 @@ $ touch app/views/spree/layouts/spree_application.html.erb
 ```
 
 ####Problem #3
-* Customizing this new file (spree_application.html.erb) because all the main elements (i.e navigation bar, side bar, products list) are partials.
+* Customizing this new file (spree_application.html.erb) is tricky because all the main elements (i.e navigation bar, side bar, products list) are partials.
 * Overriding the default application.html.erb uglifies everything because your app doesn't have spree_bootstrap. However, you can't actually add spree_bootstrap to your Gemfile because everything will break due to depenedencies not all being compatible and updated
