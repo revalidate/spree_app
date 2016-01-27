@@ -11,9 +11,9 @@
 
 <p>All of the gems are designed to work together to provide a fully functional e-commerce platform. It is also possible, however, to use only the pieces you are interested in. For example, you could use just the barebones spree_core gem and perhaps combine it with your own custom backend admin instead of using spree_api.</p>
 
-#### Step 1
-<p>Prerequisites<p>
+####Installation
 
+#####Step 1: Prerequisites
 ```
 $ gem install rails -v 4.2.0  
 $ gem install bundler
@@ -21,8 +21,7 @@ $ brew install imagemagick
 $ gem install spree_cmd
 ```
 
-#### Step 2
-<p>Create Rails app and add Spree gem to it<p>
+#####Step 1: Prerequisites
 
 ```
 $ rails _4.2.0_ new mystore
