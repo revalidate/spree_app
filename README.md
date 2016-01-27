@@ -13,7 +13,7 @@
 
 ####Installation
 
-#####Step 1: Prerequisites
+###### Step 1: Prerequisites
 ```
 $ gem install rails -v 4.2.0  
 $ gem install bundler
@@ -21,7 +21,7 @@ $ brew install imagemagick
 $ gem install spree_cmd
 ```
 
-#####Step 1: Prerequisites
+###### Step 2: Create Rails App & Add Spree Gem
 
 ```
 $ rails _4.2.0_ new mystore
